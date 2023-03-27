@@ -1,5 +1,5 @@
 {
-    "name": "ejarnutowski/laravel-api-key",
+    "name": "winnie80/laravel-api-key",
     "description": "Authorize requests to your Laravel application with API keys",
     "keywords": ["api", "api key", "authentication", "authorization", "laravel"],
     "license": "MIT",
@@ -7,11 +7,15 @@
         {
             "name": "Elliott Jarnutowski",
             "email": "e@jarno.co"
+        },
+        {
+            "name": "Winnie",
+            "email": "maranatha1@gmail.com"
         }
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": ">=5.5.9"
+        "php": ">=7.4"
     },
     "autoload": {
         "psr-4": {
@@ -21,7 +25,8 @@
     "extra": {
         "laravel": {
             "dont-discover": [
-                "ejarnutowski/laravel-api-key"
+                "ejarnutowski/laravel-api-key",
+                "winnie80/laravel-api-key"
             ]
         }
     }
